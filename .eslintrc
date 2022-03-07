@@ -149,11 +149,13 @@
 		{
 			"files": [
 				"__mocks__/**/*",
+				"assetsTransformer.js",
 				"src/utils/testUtils.tsx"
 			],
 			"rules": {
 				"import/no-extraneous-dependencies": "off",
-				"import/no-default-export": "off"
+				"import/no-default-export": "off",
+				"no-unused-vars": "off"
 			}
 		}
 	]
