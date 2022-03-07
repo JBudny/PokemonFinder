@@ -1,0 +1,157 @@
+{
+	"extends": [
+		"airbnb",
+		"airbnb/hooks",
+		"prettier",
+		"plugin:prettier/recommended"
+	],
+	"plugins": [
+		"react",
+		"simple-import-sort",
+		"import",
+		"prettier"
+	],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 2020,
+		"sourceType": "module"
+	},
+	"rules": {
+		"linebreak-style": "off",
+		"prettier/prettier": [
+			"error",
+			{
+				"endOfLine": "auto"
+			}
+		],
+		"sort-imports": "off",
+		"import/order": "off",
+		"simple-import-sort/imports": [
+			"error",
+			{
+				"groups": [
+					[
+						"^\\u0000"
+					],
+					[
+						"^react"
+					],
+					[
+						"^"
+					],
+					[
+						"^@?\\w"
+					],
+					[
+						"^@src?\\w",
+						"^@api?\\w",
+						"^@assets?\\w",
+						"^@components?\\w",
+						"^@features?\\w",
+						"^@hooks?\\w",
+						"^@mocks?\\w",
+						"^@screens?\\w",
+						"^@theme?\\w",
+						"^@utils?\\w"
+					],
+					[
+						"^\\."
+					]
+				]
+			}
+		],
+		"simple-import-sort/exports": "error",
+		"newline-before-return": "error",
+		"comma-dangle": [
+			"error",
+			"never"
+		],
+		"no-unreachable": "error",
+		"react/jsx-props-no-spreading": "off",
+		"react/prop-types": "off",
+		"react/require-default-props": "off",
+		"import/prefer-default-export": "off",
+		"import/no-default-export": "error",
+		"global-require": "off",
+		"react/style-prop-object": "off",
+		"no-param-reassign": [
+			"error",
+			{
+				"props": true,
+				"ignorePropertyModificationsFor": [
+					"state"
+				]
+			}
+		],
+		"import/extensions": [
+			"error",
+			"ignorePackages",
+			{
+				"js": "never",
+				"jsx": "never",
+				"ts": "never",
+				"tsx": "never"
+			}
+		],
+		"react/jsx-filename-extension": "off",
+		"react/function-component-definition": ["error", {
+			"namedComponents": "arrow-function",
+			"unnamedComponents": "arrow-function"
+		}]
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"extensions": [
+					".js",
+					".jsx",
+					".ts",
+					".tsx"
+				]
+			}
+		}
+	},
+	"overrides": [
+		{
+			"files": [
+				"**/*.ts",
+				"**/*.tsx"
+			],
+			"extends": [
+				"plugin:@typescript-eslint/recommended",
+				"airbnb-typescript",
+				"prettier",
+				"plugin:prettier/recommended"
+			],
+			"plugins": [
+				"@typescript-eslint",
+				"prettier"
+			],
+			"parser": "@typescript-eslint/parser",
+			"parserOptions": {
+				"project": "./tsconfig.json"
+			},
+			"rules": {
+				"@typescript-eslint/no-unnecessary-type-assertion": "error",
+				"@typescript-eslint/consistent-type-assertions": [
+					"error",
+					{
+						"assertionStyle": "as",
+						"objectLiteralTypeAssertions": "never"
+					}
+				]
+			}
+		},
+		{
+			"files": [
+				"__mocks__/**/*"
+			],
+			"rules": {
+				"import/no-extraneous-dependencies": "off",
+				"import/no-default-export": "off"
+			}
+		}
+	]
+}

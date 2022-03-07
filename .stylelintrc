@@ -1,0 +1,23 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-styled-components"
+  ],
+  "rules": {
+    "color-named": "never",
+    "color-hex-length": "short",
+    "indentation": "tab",
+    "font-family-name-quotes": "always-where-recommended",
+    "length-zero-no-unit": true,
+    "no-descending-specificity": true,
+    "font-weight-notation": "numeric",
+    "shorthand-property-no-redundant-values": true,
+    "function-url-quotes": "always",
+    "declaration-no-important": true,
+    "declaration-block-semicolon-newline-after": "always",
+    "block-closing-brace-newline-after": "always",
+    "block-closing-brace-newline-before": "always",
+    "block-opening-brace-newline-before": "never-single-line"
+  }
+}

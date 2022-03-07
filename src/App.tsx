@@ -2,9 +2,7 @@
  * @format
  */
 
-import React from 'react';
-import {SafeAreaView} from 'react-native';
+import React from 'react'
+import { SafeAreaView } from 'react-native'
 
-const App = () => <SafeAreaView />;
-
-export default App;
+export const App = () => <SafeAreaView />

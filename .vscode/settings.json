@@ -1,0 +1,35 @@
+{
+	"[json]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": false
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": false
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": false
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": false
+	},
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.formatOnSave": false,
+	"emmet.triggerExpansionOnTab": true,
+	"eslint.alwaysShowStatus": true,
+	"eslint.packageManager": "yarn",
+	"prettier.configPath": ".prettierrc",
+	"editor.tabSize": 2,
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"java.project.sourcePaths": [
+		"src/screens/HomeScreen/components/PokemonFinder"
+	]
+}

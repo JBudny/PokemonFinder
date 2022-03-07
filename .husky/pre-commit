@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+yarn lint --fix
+yarn lintStyles --fix
+yarn lint-staged
+yarn tsc --noEmit
+yarn test

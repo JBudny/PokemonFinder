@@ -1,0 +1,6 @@
+{
+  "**/*.{js{,x},ts{,x}}": [
+    "yarn prettier --write",
+    "eslint"
+  ]
+}
