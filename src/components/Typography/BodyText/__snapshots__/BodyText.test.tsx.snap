@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BodyText component should match snapshot 1`] = `
+<Text
+  size="small"
+  style={
+    Array [
+      Object {
+        "color": "rgb(33, 26, 29)",
+        "fontSize": 16,
+        "fontWeight": "normal",
+      },
+    ]
+  }
+>
+  test text
+</Text>
+`;

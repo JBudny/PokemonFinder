@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading component should match snapshot 1`] = `
+<Text
+  size="small"
+  style={
+    Array [
+      Object {
+        "color": "rgb(255, 255, 255)",
+        "fontSize": 20,
+        "fontWeight": "bold",
+      },
+    ]
+  }
+>
+  test text
+</Text>
+`;

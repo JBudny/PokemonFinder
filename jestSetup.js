@@ -1,3 +1,5 @@
+import '@testing-library/jest-native/extend-expect'
+
 import AbortController from 'abort-controller'
 import { fetch, Headers, Request, Response } from 'cross-fetch'
 
