@@ -9,6 +9,7 @@ const { POKEMON_API_BASE_URL } = Config
 
 export const api = createApi({
 	baseQuery: fetchBaseQuery({ baseUrl: POKEMON_API_BASE_URL }),
+	keepUnusedDataFor: process.env.NODE_ENV === 'test' ? 0 : 60,
 	endpoints: (build) => ({
 		pokemon: build.query<PokemonItem, string>({
 			queryFn: pokemonQueryFn

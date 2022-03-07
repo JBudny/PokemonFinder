@@ -150,7 +150,10 @@
 			"files": [
 				"__mocks__/**/*",
 				"assetsTransformer.js",
-				"src/utils/testUtils.tsx"
+				"src/utils/testUtils.tsx",
+				"jestSetup.js",
+				"src/mocks/api/handlers.ts",
+				"src/mocks/api/server.ts"
 			],
 			"rules": {
 				"import/no-extraneous-dependencies": "off",
