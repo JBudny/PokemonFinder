@@ -1,0 +1,28 @@
+on: push
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node_version: [16]
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node_version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node_version }}
+
+      - name: run CI
+        run: |
+          yarn
+          yarn lint
+          yarn lintStyles
+          yarn lint-staged
+          yarn tsc --noEmit
+          yarn test
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
