@@ -8,11 +8,15 @@ import { schema } from '@theme/schema'
 
 const originalStore = setupStore()
 
+interface ProvidersProps {
+	store: AppStore
+}
+
 export const ProvideTheme: FC = ({ children }) => (
 	<ThemeProvider theme={schema.light}>{children}</ThemeProvider>
 )
 
-export const Providers: FC<{ store: AppStore }> = ({
+export const Providers: FC<ProvidersProps> = ({
 	children,
 	store = originalStore
 }) => (

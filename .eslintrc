@@ -2,11 +2,13 @@
 	"extends": [
 		"airbnb",
 		"airbnb/hooks",
+		"plugin:jest/recommended",
 		"prettier",
 		"plugin:prettier/recommended"
 	],
 	"plugins": [
 		"react",
+		"jest",
 		"simple-import-sort",
 		"import",
 		"prettier"
@@ -146,7 +148,8 @@
 		},
 		{
 			"files": [
-				"__mocks__/**/*"
+				"__mocks__/**/*",
+				"src/utils/testUtils.tsx"
 			],
 			"rules": {
 				"import/no-extraneous-dependencies": "off",
