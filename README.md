@@ -4,9 +4,11 @@
 
 ### Mobile app that lets you search for pokemon by name or id.
 
-The main purpose of this app is to research the use of [RTK Query](https://redux-toolkit.js.org/rtk-query/overview) with [Mock Service Worker](https://mswjs.io/) for the REST API mocking purposes in tests.
+Created as a proof of concept for mocking [RTK Query](https://redux-toolkit.js.org/rtk-query/overview) API with [Mock Service Worker](https://mswjs.io/) for testing React Native apps.
 
 Note that since [React Native](https://reactnative.dev/) does not execute in a browser environment, you cannot run a Service Worker alongside your application. You can use MSW with React Native only for NodeJS integration.
+
+Project developed for Android.
 
 ## Prerequisites
 - [yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
