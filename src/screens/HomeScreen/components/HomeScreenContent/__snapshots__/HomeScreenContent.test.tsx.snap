@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreenContent component should match the snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginTop": -80,
+        "paddingBottom": 15,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 15,
+      },
+    ]
+  }
+>
+  <Text>
+    Content text
+  </Text>
+</View>
+`;

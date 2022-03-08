@@ -3,6 +3,7 @@
  */
 
 import React from 'react'
-import { SafeAreaView } from 'react-native'
 
-export const App = () => <SafeAreaView />
+import { HomeScreen } from './screens/HomeScreen/HomeScreen'
+
+export const App = () => <HomeScreen />
