@@ -6,7 +6,7 @@ import {
 	NamedAPIResource,
 	VersionEncounterDetail,
 	VersionGameIndex
-} from '../Common'
+} from '@api/types/Common'
 
 /**
  * ## Pokemon

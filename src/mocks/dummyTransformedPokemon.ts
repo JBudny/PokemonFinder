@@ -1,4 +1,4 @@
-import { transformPokemon } from '@src/api/utils/transformPokemon'
+import { transformPokemon } from '@api/utils/transformPokemon'
 
 import { dummyPokemon } from './dummyPokemon'
 

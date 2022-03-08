@@ -1,6 +1,5 @@
 import { Pokemon } from '@api/types/Pokemon'
-
-import { PokemonItem } from '../types/pokemonItem.types'
+import { PokemonItem } from '@api/types/pokemonItem.types'
 
 interface TransformedPokemon {
 	data: PokemonItem

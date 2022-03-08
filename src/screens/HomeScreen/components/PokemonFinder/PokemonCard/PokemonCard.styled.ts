@@ -1,8 +1,10 @@
+import { View } from 'react-native'
+
 import styled from 'styled-components/native'
 
 import { Heading } from '@components/Typography/Heading/Heading'
 
-export const StyledPokemonCard = styled.View`
+export const StyledPokemonCard = styled(View)`
 	padding: 20px;
 	height: 550px;
 	justify-content: space-between;

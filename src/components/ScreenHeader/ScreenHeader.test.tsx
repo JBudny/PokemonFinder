@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { renderWithProviders } from '@src/utils/testUtils'
+import { renderWithProviders } from '@utils/testUtils'
 
 import { ScreenHeader } from './ScreenHeader'
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-import { renderWithProviders } from '@src/utils/testUtils'
+import { renderWithProviders } from '@utils/testUtils'
 
 import { HomeScreenContent } from './HomeScreenContent'
 

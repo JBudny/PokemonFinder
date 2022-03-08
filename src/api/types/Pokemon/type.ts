@@ -1,4 +1,4 @@
-import { GenerationGameIndex, Name, NamedAPIResource } from '../Common'
+import { GenerationGameIndex, Name, NamedAPIResource } from '@api/types/Common'
 
 /**
  * Details of Pokémon for a specific type.

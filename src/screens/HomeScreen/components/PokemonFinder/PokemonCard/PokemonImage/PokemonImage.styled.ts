@@ -1,6 +1,8 @@
+import { Image, View } from 'react-native'
+
 import styled from 'styled-components/native'
 
-export const StyledImageWrapper = styled.View`
+export const StyledImageWrapper = styled(View)`
 	width: 200px;
 	height: 200px;
 	background: ${({ theme }) => theme.palette.accent};
@@ -9,7 +11,7 @@ export const StyledImageWrapper = styled.View`
 	align-items: center;
 `
 
-export const StyledImage = styled.Image`
+export const StyledImage = styled(Image)`
 	bottom: -40px;
 	position: absolute;
 	width: 250px;

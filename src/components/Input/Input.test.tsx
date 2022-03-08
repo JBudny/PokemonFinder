@@ -2,7 +2,7 @@ import React from 'react'
 
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
-import { renderWithProviders } from '@src/utils/testUtils'
+import { renderWithProviders } from '@utils/testUtils'
 
 import { Input } from './Input'
 

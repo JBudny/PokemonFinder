@@ -1,4 +1,4 @@
-import { Description, NamedAPIResource } from '../Common'
+import { Description, NamedAPIResource } from '@api/types/Common'
 
 /**
  * Levels and the amount of experienced needed to atain them based on the given growth rate.

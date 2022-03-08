@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
 
-import { Heading } from '../Typography/Heading/Heading'
+import { Heading } from '@components/Typography/Heading/Heading'
+
 import { StyledScreenHeader } from './ScreenHeader.styled'
 import { ScreenHeaderProps } from './ScreenHeader.types'
 
