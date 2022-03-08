@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScreenHeader component should match the snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgb(39, 93, 173)",
+        "height": 180,
+        "paddingBottom": 15,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 15,
+      },
+    ]
+  }
+>
+  <Text
+    size="large"
+    style={
+      Array [
+        Object {
+          "color": "rgb(255, 255, 255)",
+          "fontSize": 35,
+          "fontWeight": "bold",
+        },
+      ]
+    }
+  >
+    Test title
+  </Text>
+</View>
+`;
