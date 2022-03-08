@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 
 import LottieView from 'lottie-react-native'
 
-import { noResults } from '@assets/animations'
+import { noResults } from '@assets/animations/index'
 
 /**
  * Animated no results component.

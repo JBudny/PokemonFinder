@@ -1,0 +1,475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonFinder result should match the snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderRadius": 15,
+        "elevation": 8,
+        "overflow": "hidden",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": 15,
+          "flexDirection": "row",
+          "minHeight": 48,
+          "minWidth": 48,
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginRight": 10,
+          },
+        ]
+      }
+      testID="icon"
+    >
+      <
+        color="rgb(150, 150, 150)"
+        icon={
+          Object {
+            "icon": Array [
+              512,
+              512,
+              Array [
+                128269,
+                "search",
+              ],
+              "f002",
+              "M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z",
+            ],
+            "iconName": "magnifying-glass",
+            "prefix": "fas",
+          }
+        }
+        size={20}
+      />
+    </View>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Eg. bulbasaur"
+      placeholderTextColor="rgb(150, 150, 150)"
+      style={
+        Array [
+          Object {
+            "color": "rgb(33, 26, 29)",
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontSize": 20,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+          },
+        ]
+      }
+    />
+  </View>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "overflow": "hidden",
+        "transform": Array [
+          Object {
+            "translateY": -400,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "height": 550,
+            "justifyContent": "space-between",
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgb(212, 241, 255)",
+              "borderRadius": 150,
+              "height": 200,
+              "justifyContent": "center",
+              "width": 200,
+            },
+          ]
+        }
+      >
+        <Image
+          onLoadEnd={[Function]}
+          onLoadStart={[Function]}
+          source={
+            Object {
+              "uri": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "bottom": -40,
+                "height": 250,
+                "position": "absolute",
+                "width": 250,
+              },
+            ]
+          }
+          testID="official-artwork"
+        />
+      </View>
+      <Text
+        size="large"
+        style={
+          Array [
+            Object {
+              "color": "rgb(255, 255, 255)",
+              "fontSize": 35,
+              "fontWeight": "bold",
+            },
+            Object {
+              "color": "rgb(33, 26, 29)",
+              "textTransform": "capitalize",
+            },
+          ]
+        }
+      >
+        clefairy
+      </Text>
+      <Text
+        size="medium"
+        style={
+          Array [
+            Object {
+              "color": "rgb(33, 26, 29)",
+              "fontSize": 20,
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        cute-charm, magic-guard, friend-guard
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "justifyContent": "space-between",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "height": 30,
+                "justifyContent": "space-between",
+                "width": "48%",
+              },
+            ]
+          }
+          testID="pokemon-stat"
+        >
+          <Text
+            size="small"
+            style={
+              Array [
+                Object {
+                  "color": "rgb(33, 26, 29)",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "600",
+                  "textTransform": "capitalize",
+                },
+              ]
+            }
+          >
+            hp
+          </Text>
+          <Text
+            size="small"
+            style={
+              Array [
+                Object {
+                  "color": "rgb(33, 26, 29)",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                },
+              ]
+            }
+          >
+            70
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "height": 30,
+                "justifyContent": "space-between",
+                "width": "48%",
+              },
+            ]
+          }
+          testID="pokemon-stat"
+        >
+          <Text
+            size="small"
+            style={
+              Array [
+                Object {
+                  "color": "rgb(33, 26, 29)",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "600",
+                  "textTransform": "capitalize",
+                },
+              ]
+            }
+          >
+            attack
+          </Text>
+          <Text
+            size="small"
+            style={
+              Array [
+                Object {
+                  "color": "rgb(33, 26, 29)",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                },
+              ]
+            }
+          >
+            45
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "height": 30,
+                "justifyContent": "space-between",
+                "width": "48%",
+              },
+            ]
+          }
+          testID="pokemon-stat"
+        >
+          <Text
+            size="small"
+            style={
+              Array [
+                Object {
+                  "color": "rgb(33, 26, 29)",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "600",
+                  "textTransform": "capitalize",
+                },
+              ]
+            }
+          >
+            defense
+          </Text>
+          <Text
+            size="small"
+            style={
+              Array [
+                Object {
+                  "color": "rgb(33, 26, 29)",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                },
+              ]
+            }
+          >
+            48
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "height": 30,
+                "justifyContent": "space-between",
+                "width": "48%",
+              },
+            ]
+          }
+          testID="pokemon-stat"
+        >
+          <Text
+            size="small"
+            style={
+              Array [
+                Object {
+                  "color": "rgb(33, 26, 29)",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "600",
+                  "textTransform": "capitalize",
+                },
+              ]
+            }
+          >
+            special-attack
+          </Text>
+          <Text
+            size="small"
+            style={
+              Array [
+                Object {
+                  "color": "rgb(33, 26, 29)",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                },
+              ]
+            }
+          >
+            60
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "height": 30,
+                "justifyContent": "space-between",
+                "width": "48%",
+              },
+            ]
+          }
+          testID="pokemon-stat"
+        >
+          <Text
+            size="small"
+            style={
+              Array [
+                Object {
+                  "color": "rgb(33, 26, 29)",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "600",
+                  "textTransform": "capitalize",
+                },
+              ]
+            }
+          >
+            special-defense
+          </Text>
+          <Text
+            size="small"
+            style={
+              Array [
+                Object {
+                  "color": "rgb(33, 26, 29)",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                },
+              ]
+            }
+          >
+            65
+          </Text>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "height": 30,
+                "justifyContent": "space-between",
+                "width": "48%",
+              },
+            ]
+          }
+          testID="pokemon-stat"
+        >
+          <Text
+            size="small"
+            style={
+              Array [
+                Object {
+                  "color": "rgb(33, 26, 29)",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                },
+                Object {
+                  "fontWeight": "600",
+                  "textTransform": "capitalize",
+                },
+              ]
+            }
+          >
+            speed
+          </Text>
+          <Text
+            size="small"
+            style={
+              Array [
+                Object {
+                  "color": "rgb(33, 26, 29)",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                },
+              ]
+            }
+          >
+            35
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

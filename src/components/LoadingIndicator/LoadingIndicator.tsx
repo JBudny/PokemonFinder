@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 
 import LottieView from 'lottie-react-native'
 
-import { loadingIndicator } from '@assets/animations'
+import { loadingIndicator } from '@assets/animations/index'
 
 /**
  * Animation used as a loading indicator.

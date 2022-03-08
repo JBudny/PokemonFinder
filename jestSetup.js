@@ -5,6 +5,8 @@ import { fetch, Headers, Request, Response } from 'cross-fetch'
 
 import { server } from './src/mocks/api/server'
 
+jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper')
+
 global.fetch = fetch
 global.Headers = Headers
 global.Request = Request
