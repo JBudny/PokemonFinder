@@ -153,12 +153,14 @@
 				"src/utils/testUtils.tsx",
 				"jestSetup.js",
 				"src/mocks/api/handlers.ts",
-				"src/mocks/api/server.ts"
+				"src/mocks/api/server.ts",
+				"src/assets/animations/index.ts"
 			],
 			"rules": {
 				"import/no-extraneous-dependencies": "off",
 				"import/no-default-export": "off",
-				"no-unused-vars": "off"
+				"no-unused-vars": "off",
+				"@typescript-eslint/no-var-requires": "off"
 			}
 		}
 	]
