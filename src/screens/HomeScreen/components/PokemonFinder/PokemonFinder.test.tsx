@@ -1,4 +1,5 @@
 import React from 'react'
+import Config from 'react-native-config'
 
 import { act, fireEvent } from '@testing-library/react-native'
 import { rest } from 'msw'
@@ -10,6 +11,8 @@ import { dummyTransformedPokemon } from '@mocks/dummyTransformedPokemon'
 import { renderWithProviders } from '@utils/testUtils'
 
 import { PokemonFinder } from './PokemonFinder'
+
+const { POKEMON_API_BASE_URL } = Config
 
 const placeholder = 'Eg. bulbasaur'
 const { sprite, name, abilities } = dummyTransformedPokemon
@@ -58,7 +61,7 @@ test('PokemonFinder should display image with proper source', async () => {
 
 test('PokemonFinder should display no image animation if sprite is null', async () => {
 	server.use(
-		rest.get('*/pokemon/:id', (_req, res, ctx) => {
+		rest.get(`${POKEMON_API_BASE_URL}/pokemon/*`, (_req, res, ctx) => {
 			return res(
 				ctx.json({
 					...dummyPokemon,
